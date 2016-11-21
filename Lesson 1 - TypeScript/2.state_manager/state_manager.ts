@@ -14,7 +14,7 @@ interface IReducer {
 
 class StateManager {
 
-  private states: Map<string, Object>;
+  // private states: type?;
 
   addReducer(stateName: string, reducer: IReducer) {
 
@@ -37,6 +37,3 @@ class StateManager {
     return this._state;
   }
 }
-
-
-export { IAction, IActionCreator, IReducer, StateManager }

@@ -1,8 +1,3 @@
-import { StateManager } from './state_manager';
-
-import * as reducers from './reducers';
-
-import * as actionCreators from './action_creators';
 
 let state = StateManager.getState();
 
